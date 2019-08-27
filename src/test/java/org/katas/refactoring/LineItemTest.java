@@ -37,7 +37,7 @@ public class LineItemTest {
         double result = lineItem.totalAmount();
         
         //then
-        assertEquals(6.0, result);
+        assertEquals(6.0, result, 0.1);
     }
 
 }
